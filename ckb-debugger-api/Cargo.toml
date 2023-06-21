@@ -10,12 +10,12 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-ckb-hash = { git = "https://github.com/nervosnetwork/ckb" }
-ckb-chain-spec = { git = "https://github.com/nervosnetwork/ckb" }
-ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb" }
+ckb-hash = "=0.111.0-rc3"
+ckb-chain-spec = "=0.111.0-rc3"
+ckb-jsonrpc-types = "=0.111.0-rc3"
 ckb-mock-tx-types = { path = "../ckb-mock-tx-types" }
-ckb-script = { git = "https://github.com/nervosnetwork/ckb", default-features = false }
-ckb-types = { git = "https://github.com/nervosnetwork/ckb" }
+ckb-script = { version = "=0.111.0-rc3", default-features = false }
+ckb-types = "=0.111.0-rc3"
 ckb-vm = { version = "=0.24.0" }
 faster-hex = "0.4.0"
 hex = "0.4"
